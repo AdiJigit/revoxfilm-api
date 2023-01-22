@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(express.static('public'));
 app.use(
   cors({
-    origin: ['https://revoxfilm-client.onrender.com'],
+    origin: ['https://revoxfilm-client.onrender.com/api'],
   })
 );
 
